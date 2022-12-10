@@ -5,23 +5,21 @@ import emoji from "react-easy-emoji";
 // Your Summary And Greeting Section
 
 const greeting = {
-  username: "Bharat Kammakatla",
-  title: "Hi all, I'm Bharat",
+  username: "Joe Schubert",
+  title: "Hi everybody, I'm Joe",
   subTitle: emoji(
-    "Front End Developer 👨‍💻 | Test Automation Engineer 🤖 | Tech Writer ✍️ "
+    "Software Developer / Electronics Technician "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1gsPhoU4Dg-bFSlf3K-SFrKHO0XTBpS0i/view?usp=sharing",
+    "https://drive.google.com/file/d/1N7cKb79mMi-LgFQttXqqk-adkSQy8ZBC/view?usp=share_link",
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/bharatkammakatla",
-  linkedin: "https://www.linkedin.com/in/bharatkammakatla",
-  gmail: "bharatkammakatla@gmail.com",
-  facebook: "https://www.facebook.com/bharat.kammakatla",
-  twitter: "https://twitter.com/Bharat__K",
+  github: "https://github.com/JoeSchubert",
+  linkedin: "https://www.linkedin.com/in/joeschubert/",
+  gmail: "joseph.schubert@gmail.com",
 };
 
 // Your Skills Section
@@ -29,17 +27,10 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What i do",
   subTitle:
-    "HANDLING ALL TEST AUTOMATION ACTIVITIES AND EXPLORING DATA SCIENCE",
+    "Constantly striving to learn and expand my knowledge of languages.",
   skills: [
     emoji(
-      "⚡ Designing and developing Test Automation frameworks using Python and Java"
-    ),
-    emoji("⚡ End to End automation executions"),
-    emoji(
-      "⚡ Working on test automation tools like Selenium, Appium, UFT, SoapUI, AutoIT, Katalon Studio, Seetest Mobile Cloud administration, etc"
-    ),
-    emoji(
-      "⚡ Building predictive models to extract insights and make decisions out of data"
+      "⚡ Designing and developing software using Python, Java and learning Go"
     ),
   ],
 
@@ -59,17 +50,10 @@ const skillsSection = {
       },
     },
     {
-      skillName: "reactJS",
-      classname: "simple-icons:react",
+      skillName: "Go",
+      classname: "simple-icons:go",
       style: {
-        color: "#61DAFB",
-      },
-    },
-    {
-      skillName: "maven",
-      classname: "vscode-icons:file-type-maven",
-      style: {
-        backgroundColor: "transparent",
+        color: "#00acd7",
       },
     },
     {
@@ -80,37 +64,15 @@ const skillsSection = {
       },
     },
     {
-      skillName: "jenkins",
-      classname: "vscode-icons:file-type-jenkins",
+      skillName: "docker",
+      classname: "simple-icons:docker",
       style: {
-        backgroundColor: "transparent",
+        color: "#2396ed",
       },
     },
     {
-      skillName: "postgres",
-      classname: "logos:postgresql",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "tensorflow",
-      classname: "logos-tensorflow",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "keras",
-      classname: "simple-icons:keras",
-      style: {
-        backgroundColor: "white",
-        color: "#D00000",
-      },
-    },
-    {
-      skillName: "flask",
-      classname: "simple-icons:flask",
+      skillName: "MySQL",
+      classname: "logos:mysql",
       style: {
         backgroundColor: "transparent",
       },
@@ -124,32 +86,34 @@ const workExperiences = {
   viewExperiences: false, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Electronics Systems Detachment Supervisor",
+      company: "United States Coast Guard",
+      companylogo: require("./assets/images/uscg.png"),
+      date: "July 2020 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Served as the senior electronics technician for the department.  Supervised unit of ten personnel in completion of maintenance and repairs of electronics systems installed at supported units, maintained inventory, and oversaw training and professional development of personnel.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "As the ESD Supervisor, routinely coordinated with the command team at supported units to ensure that maintenance and repair would not negatively impact operations.",
+        "Accounted for over $1.4 million in inventory, with 100% accuracy on annual audits.",
+        "Served as the primary point of contact for the ESD which included duties such as completion of performance evaluations on assigned personnel, ensured that personnel completed and held qualifications, and provided bi-monthly status reports to senior leadership. ",
+        "Applied analytical thought and troubleshooting prowess to resolve complex technical issues efficiently to support the operational readiness of the Coast Guard’s Long-Range High Frequency Communications missions. Conducted subsequent training based on lessons learned to enable junior technicians to resolve them in the future.",
       ],
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Leading Petty Officer",
+      company: "United States Coast Guard",
+      companylogo: require("./assets/images/uscg.png"),
+      date: "September 2018 – July 202",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Served as the Leading Petty Officer within the Electronics Shop onboard USCGC Northland. Oversaw a team of technicians in the maintenance and repair of various electronic systems including Communications, Navigation, Electronic Warfare, and Radar systems.",
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Leading Petty Officer",
+      company: "United States Coast Guard",
+      companylogo: require("./assets/images/uscg.png"),
+      date: "May 2015 – September 2018",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Supervised three personnel, including the Cutter’s Information Technician in the maintenance and repair of Electronics and Information systems. Ensured consistent operation of all shipboard Communications and Radar systems, including Satellite Internet Connectivity systems.",
     },
   ],
 };
@@ -167,107 +131,23 @@ const openSource = {
 const certifications = {
   certifications: [
     {
-      title: "Selenium",
-      subtitle: "- Vskills",
-      logo_path: "vskills-logo.png",
+      title: "AWS Certified Cloud Practitioner",
+      subtitle: "Foundational",
+      logo_path: "aws-clf.png",
       certificate_link:
-        "https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
-      alt_name: "Vskills",
+        "https://www.credly.com/badges/46318cf3-17e7-40f1-97ae-e37e6eab6a58",
+      alt_name: "AWS-CLF",
       color_code: "#F6EAEA",
     },
-    {
-      title: "Cloud Admin & Automation",
-      subtitle: "- Experitest",
-      logo_path: "seetest-logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1qhh1ZUBB2VPrOaT6bNgiJ5Y2sHmCjvMg/view?usp=drivesdk",
-      alt_name: "Experitest",
-      color_code: "#F0FFDD",
-    },
-    {
-      title: "Python",
-      subtitle: "- Jose Portilla",
-      logo_path: "pierian-data-logo.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-a80d6e7c-e753-421d-bcee-5a7bc1769f28/",
-      alt_name: "Pierian-Data",
-      color_code: "#FEF6E6",
-    },
-    {
-      title: "Selenium Python",
-      subtitle: "- Rahul Shetty",
-      logo_path: "rahulshettyacademy-logo.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-e4b66abd-18c6-4bfa-9132-ab22d2bf7ef7/",
-      alt_name: "RahulShettyAcademy",
-      color_code: "#FDE9EA",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- IBM",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://coursera.org/share/893f2210f39f5a60d0463b19b469b808",
-      alt_name: "IBM",
-      color_code: "#E3F1FA",
-    },
-    {
-      title: "ML and DS",
-      subtitle: "- Andrei Neagoie",
-      logo_path: "zero-to-mastery.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-fd118b7d-7436-442c-a7f8-5077c432d596/",
-      alt_name: "Zero To Mastery",
-      color_code: "#FFFDDD",
-    },
-  ],
-};
-
-// Blogs Section
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-  blogs: [
-    {
-      url:
-        "https://blog.bharatkammakatla.com/selenium-python-automation-framework-how-to-build-cke5vij9p012h9ds1fsaocyax",
-      title: "How to build a Selenium Python Automation Framework",
-      description:
-        "Interested in building a test automation framework with selenium and python? If so, check out here !",
-    },
-    {
-      url:
-        "https://blog.bharatkammakatla.com/steps-to-build-a-selenium-java-framework-ckdsi73xg005ga9s1defhemfz",
-      title: "Steps to build a Selenium Java Automation Framework",
-      description:
-        "Interested in building a test automation framework with selenium and java? If so, check out here !",
-    },
-    {
-      url:
-        "https://blog.bharatkammakatla.com/face-expression-recognition-using-keras-and-cnns-ckbevmufo0195dis1dfs10kt1",
-      title: "Building a Machine Learning model to detect human emotions",
-      description:
-        "Are you interested to know how machines detect human emotions? If so, check out here !",
-    },
-    {
-      url:
-        "https://medium.com/@bharatkammakatla/basic-end-to-end-scikit-learn-workflow-cd9e9a50491b?source=friends_link&sk=b828ac262c172abd7508efcbd00e5bd3",
-      title: "Basic End-to-End Scikit-Learn workflow",
-      description:
-        "Do you want to know how a basic end-to-end scikit-learn workflow is implemented ? If so, check out here !",
-    },
-  ],
+  ]
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+852 51606863",
-  email_address: "bharatkammakatla@gmail.com",
+  number: "(757) 374-5649",
+  email_address: "joseph.schubert@gmail.com",
 };
 
 export {
@@ -276,7 +156,6 @@ export {
   skillsSection,
   workExperiences,
   openSource,
-  blogSection,
   contactInfo,
   certifications,
 };
